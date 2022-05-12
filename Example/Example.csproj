@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-irondockerexample-A0D49700-B2E6-4A46-B828-99562621ACFE</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.0" />
+    <PackageReference Include="IronPdf" Version="2022.5.5596" />
+    <PackageReference Include="IronPdf.Native.Chrome.Linux" Version="2022.5.5595" />
+  </ItemGroup>
+</Project>
